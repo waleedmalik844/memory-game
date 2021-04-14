@@ -1,0 +1,731 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602e1ee194fdb7d439fe78d5fd83fcea, type: 3}
+  m_Name: New Question
+  m_EditorClassIdentifier: 
+  currentQuestion: 0
+  questionList:
+  - question: "Qui\xE9n fue el primer presidente de Estados Unidos? George Washington"
+    isTrue: 1
+    questioned: 0
+  - question: "Nombre de la monta\xF1a mas alta del planeta? Everest"
+    isTrue: 1
+    questioned: 0
+  - question: Nombre de la cascada de agua mas alta del planeta? Salto Angel
+    isTrue: 1
+    questioned: 0
+  - question: Nombre de Bolivar el Libertador? Simon
+    isTrue: 1
+    questioned: 0
+  - question: El arca biblica de? Noe
+    isTrue: 1
+    questioned: 0
+  - question: Madre de todos los Mexicanos? Virgen de Guadalupe
+    isTrue: 1
+    questioned: 0
+  - question: "Patrona de Espa\xF1a? Inmaculada Concepcion de Maria"
+    isTrue: 1
+    questioned: 0
+  - question: "Patrona de Venezuela? Nuestra Se\xF1ora de Coromoto"
+    isTrue: 1
+    questioned: 0
+  - question: Patrona de Puerto Rico? Virgen de la Divina Providencia
+    isTrue: 1
+    questioned: 0
+  - question: "Patrona de Colombia? Nuestra se\xF1ora del Rosario de la Chiquinquir"
+    isTrue: 1
+    questioned: 0
+  - question: "Mamifero marino de gran tama\xF1o? Ballena"
+    isTrue: 1
+    questioned: 0
+  - question: "Mamifero terrestre de gran tama\xF1o? Elefante"
+    isTrue: 1
+    questioned: 0
+  - question: Mamifero tipico de Australia? Canguro
+    isTrue: 1
+    questioned: 0
+  - question: 'Ave nacional de Estados Unidos? Aguila '
+    isTrue: 1
+    questioned: 0
+  - question: "Ave nacional de Espa\xF1a?"
+    isTrue: 1
+    questioned: 0
+  - question: Ave nacional de Mexico?  Aguila Real
+    isTrue: 1
+    questioned: 0
+  - question: Aguila Imperial Iberica ?
+    isTrue: 1
+    questioned: 0
+  - question: Ave nacional de Colombia? Condor
+    isTrue: 1
+    questioned: 0
+  - question: Ave nacional de Puerto Rico? Carpintero
+    isTrue: 1
+    questioned: 0
+  - question: Ave nacional de Ecuador? Condor
+    isTrue: 1
+    questioned: 0
+  - question: Ave nacional de Chile? Condor
+    isTrue: 1
+    questioned: 0
+  - question: Ave nacional de Venezuela? Turpial
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Mexico? America
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Honduras? America
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Argentina? America
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Peru? America
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Costa Rica? America
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Cuba? America
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Canada? America
+    isTrue: 1
+    questioned: 0
+  - question: ' En cual continente esta Bahamas? America'
+    isTrue: 1
+    questioned: 0
+  - question: "En cual continente esta Espa\xF1a? Europa"
+    isTrue: 1
+    questioned: 0
+  - question: ' En cual continente esta Italia? Europa'
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Alemania? Europa
+    isTrue: 1
+    questioned: 0
+  - question: ' En cual continente esta Francia? Europa'
+    isTrue: 1
+    questioned: 0
+  - question: ' En cual continente esta Holanda? Europa'
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Austria? Europa
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Irlanda? Europa
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Polonia? Europa
+    isTrue: 1
+    questioned: 0
+  - question: ' En cual continente esta Grecia? Europa'
+    isTrue: 1
+    questioned: 0
+  - question: ' En cual continente esta Belgica? Europa'
+    isTrue: 1
+    questioned: 0
+  - question: ' En cual continente esta China? Asia'
+    isTrue: 1
+    questioned: 0
+  - question: ' En cual continente esta Pakistan? Asia'
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Iraq? Asia
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Japon? Asia
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta la India? Asia
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Argelia? Africa
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Kenia? Africa
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta Marruecos? Africa
+    isTrue: 1
+    questioned: 0
+  - question: ' En cual continente esta Mozambique ? Africa'
+    isTrue: 1
+    questioned: 0
+  - question: ' En cual continente esta Liberia? Africa '
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman tres manzanas mas dos Naranjas? Cinco
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman tres uvas mas dos limones? Cinco
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman tres mangos mas dos melones? Cinco
+    isTrue: 1
+    questioned: 0
+  - question: ' Cuantas frutas suman cuatro manzanas mas tres Naranjas? Siete'
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman cuatro uvas mas tres peras? Siete
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman cuatro mangos mas tres limones? Siete
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman cuatro melones mas tres aguacates? Siete
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman cinco manzanas mas cuatro Naranjas? Nueve
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman cinco aguacates mas cuatro uvas? Nueve
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman cinco naranjas mas cuatro Naranjas? Nueve
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman cinco manzanas mas cuatro Naranjas? Nueve
+    isTrue: 1
+    questioned: 0
+  - question: ' Cuantas frutas suman cinco uvas mas cuatro uvas? Nueve'
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman cinco peras mas cuatro Naranjas? Nueve
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman cinco mango mas cuatro peras? Nueve
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman cinco naranjas mas cuatro aguacates? Nueve
+    isTrue: 1
+    questioned: 0
+  - question: ' Cuantas frutas suman cinco aguacates mas cuatro Naranjas? Nueve'
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman ocho agucates mas cinco Naranjas? Trece
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman ocho mangos mas cinco Naranjas? Trece
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman ocho manzanas mas cinco peras? Trece
+    isTrue: 1
+    questioned: 0
+  - question: Cuantas frutas suman ocho mangos mas cinco limones? Trece
+    isTrue: 1
+    questioned: 0
+  - question: Fecha de nacimiento de Vilma Rosa? 24 de abril de 1933
+    isTrue: 1
+    questioned: 0
+  - question: En cual ciudad nacio Vilma Rosa? Santa Rita
+    isTrue: 1
+    questioned: 0
+  - question: Que dia de la semana nacio Vilma Rosa? Lunes
+    isTrue: 1
+    questioned: 0
+  - question: Cual era el apellido de soltera de Vilma Rosa? Cayama
+    isTrue: 1
+    questioned: 0
+  - question: Quien era Vilma Rosa? Mi hermosa madre que inspiro esta aplicacion
+    isTrue: 1
+    questioned: 0
+  - question: En que pais se celebra el Carnaval de Rio de Janeiro? Brazil
+    isTrue: 1
+    questioned: 0
+  - question: "Capital de Venezuela ? \u201CCaracas\u201D "
+    isTrue: 1
+    questioned: 0
+  - question: 'Capital de Mexico? Mexico '
+    isTrue: 1
+    questioned: 0
+  - question: "Capital de Espa\xF1a? Madrid "
+    isTrue: 1
+    questioned: 0
+  - question: 'Capital de Peru ? Lima '
+    isTrue: 1
+    questioned: 0
+  - question: 'Capital de Francia? Paris '
+    isTrue: 1
+    questioned: 0
+  - question: 'Capital de Inglaterra? Londres '
+    isTrue: 1
+    questioned: 0
+  - question: 'Capital de Italia? Roma '
+    isTrue: 1
+    questioned: 0
+  - question: 'Capital de Alemania? Berlin '
+    isTrue: 1
+    questioned: 0
+  - question: 'Capital de Austria? Viena '
+    isTrue: 1
+    questioned: 0
+  - question: 'Color del cielo? Azul '
+    isTrue: 1
+    questioned: 0
+  - question: 'Color de la Naranja? Amarrillo '
+    isTrue: 1
+    questioned: 0
+  - question: 'Color del tomate? Rojo '
+    isTrue: 1
+    questioned: 0
+  - question: 'Color de la Manzana? Rojo '
+    isTrue: 1
+    questioned: 0
+  - question: 'Color de la zanahoria? Naranja '
+    isTrue: 1
+    questioned: 0
+  - question: 'Color de las plantas? Verde '
+    isTrue: 1
+    questioned: 0
+  - question: Color de la Casa Blanca? Blanco
+    isTrue: 1
+    questioned: 0
+  - question: 'Color del caballo blanco de Bolivar? Blanco '
+    isTrue: 1
+    questioned: 0
+  - question: 'Color del mar? Azul '
+    isTrue: 1
+    questioned: 0
+  - question: 'Color del sol? Amarrillo '
+    isTrue: 1
+    questioned: 0
+  - question: 'El planeta tierra es redondo?Redondo '
+    isTrue: 1
+    questioned: 0
+  - question: 'De q pais es Simon Bolivar? Venezuela '
+    isTrue: 1
+    questioned: 0
+  - question: Que continente descubrio Cristobal Colon? America
+    isTrue: 1
+    questioned: 0
+  - question: 'De cual pais es Pancho Villas? Mexico '
+    isTrue: 1
+    questioned: 0
+  - question: De cual pais es el plato llamado Pabellon? Venezuela
+    isTrue: 1
+    questioned: 0
+  - question: 'De cual pais es el taco? Mexico '
+    isTrue: 1
+    questioned: 0
+  - question: De cual pais es el sushi ? Japon
+    isTrue: 1
+    questioned: 0
+  - question: 'De cual pais es el arroz con moros? Cuba '
+    isTrue: 1
+    questioned: 0
+  - question: "De que pais es el Jamon Iberico? Espa\xF1a"
+    isTrue: 1
+    questioned: 0
+  - question: De que pais es la salsa Napolitana? Italia
+    isTrue: 1
+    questioned: 0
+  - question: De que pais es originaria la pizza? Italia
+    isTrue: 1
+    questioned: 0
+  - question: "Formula qu\xEDmica del agua? H2O"
+    isTrue: 1
+    questioned: 0
+  - question: Que continente comienza por la letra E? Europa
+    isTrue: 1
+    questioned: 0
+  - question: De que pais es el cantante Luis Miguel? Mexico
+    isTrue: 1
+    questioned: 0
+  - question: 'De que pais es el plato llamado Lo Mein? China '
+    isTrue: 1
+    questioned: 0
+  - question: De que pais es originario el queso Feta? Grecia
+    isTrue: 1
+    questioned: 0
+  - question: 'Cual pais esta al norte de USA ? Canada '
+    isTrue: 1
+    questioned: 0
+  - question: En cual pais esta la ciudad de Buenos Aires ? Argentina
+    isTrue: 1
+    questioned: 0
+  - question: 'De cual pais es Marco Polo? Italia '
+    isTrue: 1
+    questioned: 0
+  - question: "De cual pais es el jamon serrano? Espa\xF1a"
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual pais esta el rio Orinoco? Venezuela '
+    isTrue: 1
+    questioned: 0
+  - question: 'En que continente esta el desierto del sahara? Africa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En que pais hay canguros? Australia '
+    isTrue: 1
+    questioned: 0
+  - question: 'La hembra del toro es la? Vaca '
+    isTrue: 1
+    questioned: 0
+  - question: De donde es el baile llamado tango? Argentina
+    isTrue: 1
+    questioned: 0
+  - question: 'De cual pais es el queso parmesano? Italia '
+    isTrue: 1
+    questioned: 0
+  - question: De cual pais son los Mariachi? Mexico
+    isTrue: 1
+    questioned: 0
+  - question: 'De cual pais es capital Tokyo? Japon '
+    isTrue: 1
+    questioned: 0
+  - question: De cual pais es la capital Habana? Cuba
+    isTrue: 1
+    questioned: 0
+  - question: "De cual pais es Julio Iglesias? Espa\xF1a "
+    isTrue: 1
+    questioned: 0
+  - question: En cual pais esta el Vaticano? Vaticano
+    isTrue: 1
+    questioned: 0
+  - question: "Qui\xE9n fue el primer presidente de Estados Unidos? George Washington"
+    isTrue: 1
+    questioned: 0
+  - question: "Nombre de la monta\xF1a mas alta del planeta? Everest"
+    isTrue: 1
+    questioned: 0
+  - question: Nombre de la cascada de agua mas alta del planeta? Salto Angel
+    isTrue: 1
+    questioned: 0
+  - question: Nombre de Bolivar el Libertador? Simon
+    isTrue: 1
+    questioned: 0
+  - question: El arca biblica de? Noe
+    isTrue: 1
+    questioned: 0
+  - question: 'Patrona de los Mexicanos? Virgen de Guadalupe '
+    isTrue: 1
+    questioned: 0
+  - question: "Patrona de Espa\xF1a? Inmaculada Concepcion de Maria"
+    isTrue: 1
+    questioned: 0
+  - question: "Patrona de Venezuela? Nuestra Se\xF1ora de Coromoto"
+    isTrue: 1
+    questioned: 0
+  - question: 'Patrona de Puerto Rico? Virgen de la Divina Providencia '
+    isTrue: 1
+    questioned: 0
+  - question: "Patrona de Colombia? Nuestra se\xF1ora del Rosario de la Chiquinquir
+      a "
+    isTrue: 1
+    questioned: 0
+  - question: "Mamifero marino de gran tama\xF1o? Ballena "
+    isTrue: 1
+    questioned: 0
+  - question: "Mamifero terrestre de gran tama\xF1o? Elefante "
+    isTrue: 1
+    questioned: 0
+  - question: 'Mamifero tipico de Australia? Canguro '
+    isTrue: 1
+    questioned: 0
+  - question: 'Ave nacional de Estados Unidos? Aguila Calva '
+    isTrue: 1
+    questioned: 0
+  - question: 'Ave nacional de Mexico? Aguila Real '
+    isTrue: 1
+    questioned: 0
+  - question: 'Ave nacional de Colombia? Condor '
+    isTrue: 1
+    questioned: 0
+  - question: 'Ave nacional de Puerto Rico? Carpintero '
+    isTrue: 1
+    questioned: 0
+  - question: 'Ave nacional de Ecuador? Condor '
+    isTrue: 1
+    questioned: 0
+  - question: 'Ave nacional de Chile? Condor '
+    isTrue: 1
+    questioned: 0
+  - question: Ave nacional de Venezuela? Turpial
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Mexico? America '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Honduras? America '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Argentina? America '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Peru? America '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Costa Rica? America '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Cuba? America '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Canada? America '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Bahamas? America '
+    isTrue: 1
+    questioned: 0
+  - question: "En cual continente esta Espa\xF1a? Europa "
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Italia? Europa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Alemania? Europa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Francia? Europa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Holanda? Europa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Austria? Europa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Irlanda? Europa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Polonia? Europa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Grecia? Europa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Belgica? Europa '
+    isTrue: 1
+    questioned: 0
+  - question: En cual continente esta China? Asia
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Pakistan? Asia '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Iraq? Asia '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Japon? Asia '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta la India? Asia '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Argelia? Africa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Kenia? Africa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Marruecos? Africa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Mozambique ? Africa '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual continente esta Liberia? Afric '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman tres manzanas mas dos Naranjas? '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman tres uvas mas dos limones? Cinco '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman tres mangos mas dos melones? Cinco '
+    isTrue: 1
+    questioned: 0
+  - question: ' Cuantas frutas suman cuatro manzanas mas tres Naranjas? Siete '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman cuatro uvas mas tres peras? Siete '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman cuatro mamgos mas tres limones? Siete '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman cuatro melones mas tres aguacates? Siete '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman cinco manzanas mas cuatro Naranjas? Nueve '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman cinco aguacates mas cuatro uvas? Nueve '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman cinco naranjas mas cuatro Naranjas? Nueve '
+    isTrue: 1
+    questioned: 0
+  - question: ' Cuantas frutas suman cinco manzanas mas cuatro Naranjas? Nueve'
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman cinco uvas mas cuatro uvas? Nueve '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman cinco peras mas cuatro Naranjas? Nueve '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman cinco mango mas cuatro peras? Nueve '
+    isTrue: 1
+    questioned: 0
+  - question: ' Cuantas frutas suman cinco naranjas mas cuatro aguacates? Nueve '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman cinco aguacates mas cuatro Naranjas? Nueve '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman ocho agucates mas cinco Naranjas? Trece '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman ocho mangos mas cinco Naranjas? Trece '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman ocho manzanas mas cinco peras? Trece '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cuantas frutas suman ocho mangos mas cinco limones? Trece '
+    isTrue: 1
+    questioned: 0
+  - question: 'Fecha de nacimiento de Vilma Rosa? 24 de abril de 1933 '
+    isTrue: 1
+    questioned: 0
+  - question: 'En cual ciudad nacio Vilma Rosa? Santa Rita '
+    isTrue: 1
+    questioned: 0
+  - question: 'Que dia de la semana nacio Vilma Rosa? Lunes '
+    isTrue: 1
+    questioned: 0
+  - question: 'Cual era el apellido de soltera de Vilma Rosa? Cayama '
+    isTrue: 1
+    questioned: 0
+  - question: Quien era Vilma Rosa? Mi hermosa madre que inspiro esta aplicacion
+    isTrue: 1
+    questioned: 0
+  - question: En que pais se celebra el Carnaval de Rio de Janeiro? Colombia
+    isTrue: 0
+    questioned: 0
+  - question: 'Capital de Venezuela? Maracaibo '
+    isTrue: 0
+    questioned: 0
+  - question: 'Capital de Mexico? Cancun '
+    isTrue: 0
+    questioned: 0
+  - question: "Capital de Espa\xF1a? Sevilla"
+    isTrue: 0
+    questioned: 0
+  - question: Color de la Casa Blanca? Verde
+    isTrue: 0
+    questioned: 0
+  - question: Que continente descubrio Cristobal Colon? Europa
+    isTrue: 0
+    questioned: 0
+  - question: En que continente esta el desierto del Sahara? America
+    isTrue: 0
+    questioned: 0
+  - question: La hembra del toro es la? Chiva
+    isTrue: 0
+    questioned: 0
+  - question: De cual pais son los Mariachi? Italia
+    isTrue: 0
+    questioned: 0
+  - question: De cual pais es capital Tokyo? Mexico
+    isTrue: 0
+    questioned: 0
+  - question: De cual pais es la capital Habana? Honduras
+    isTrue: 0
+    questioned: 0
+  - question: "Mamifero terrestre de gran tama\xF1o? Gato"
+    isTrue: 0
+    questioned: 0
+  - question: "En cual continente esta Espa\xF1a? Asia "
+    isTrue: 0
+    questioned: 0
+  - question: En cual continente esta Italia? Asia
+    isTrue: 0
+    questioned: 0
+  - question: En cual continente esta Alemania? Asia
+    isTrue: 0
+    questioned: 0
+  - question: En cual continente esta Francia? Asia
+    isTrue: 0
+    questioned: 0
+  - question: En cual continente esta Holanda? Asia
+    isTrue: 0
+    questioned: 0
+  - question: En cual continente esta Austria? Asia
+    isTrue: 0
+    questioned: 0
+  - question: 'En cual continente esta Irlanda? Asia '
+    isTrue: 0
+    questioned: 0
+  - question: 'Cuantas frutas suman tres manzanas mas dos Naranjas? cinco '
+    isTrue: 0
+    questioned: 0
+  - question: 'Cuantas frutas suman tres uvas mas dos limones? Tres '
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman tres mangos mas dos melones? Tres
+    isTrue: 0
+    questioned: 0
+  - question: 'Cuantas frutas suman cuatro manzanas mas tres Naranjas? Tres '
+    isTrue: 0
+    questioned: 0
+  - question: 'Cuantas frutas suman cuatro uvas mas tres peras? Tres '
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman cuatro mamgos mas tres limones? Tres
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman cuatro melones mas tres aguacates? Doce
+    isTrue: 0
+    questioned: 0
+  - question: 'Cuantas frutas suman cinco manzanas mas cuatro Naranjas? Doce '
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman cinco aguacates mas cuatro uvas? Doce
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman cinco naranjas mas cuatro Naranjas? Doce
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman cinco manzanas mas cuatro Naranjas? Catorce
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman cinco uvas mas cuatro uvas? Catorce
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman cinco peras mas cuatro Naranjas? Catorce
+    isTrue: 0
+    questioned: 0
+  - question: 'Cuantas frutas suman cinco mango mas cuatro peras? Catorce '
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman cinco naranjas mas cuatro aguacates? Catorce
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman cinco aguacates mas cuatro Naranjas? Catorce
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman ocho agucates mas cinco Naranjas? Catorce
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman ocho mangos mas cinco Naranjas? Catorce
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman ocho manzanas mas cinco peras? Catorce
+    isTrue: 0
+    questioned: 0
+  - question: Cuantas frutas suman ocho mangos mas cinco limones? Catorce
+    isTrue: 0
+    questioned: 0
